@@ -35,3 +35,11 @@ export function signOut (callback) {
     auth.signOut().then(() => callback(true, null, null))
         .catch((error) => callback(false, null, {message: error}));
 }
+
+//Sign user in using Facebook
+export function signInWithFacebook (fbToken, callback) {
+    const credential = provider.credential(fbToken);
+    auth.signInWithCredential(credential)
+        .then((user) => callback(true, user, null))
+        .catch((error) => callback(false, null, error));
+}

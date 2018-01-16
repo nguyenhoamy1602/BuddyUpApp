@@ -4,7 +4,7 @@ import {padding, color, fontSize, misc} from "../../styles/Theme"
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: 'rgb(59,70,79)'
+        backgroundColor: '#42d1f4'
     },
 
     wrapper:{
@@ -12,7 +12,8 @@ const styles = StyleSheet.create({
     },
 
     appTitle:{
-        fontSize:fontSize.large,
+        fontFamily: "AvenirNext-Heavy",
+        fontSize:fontSize.title,
         fontWeight:"500",
         color:color.white,
     },

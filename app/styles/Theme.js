@@ -12,7 +12,8 @@ const fontSize = {
     smaller: 13,
     small: 14,
     regular: 15,
-    large: 22
+    large: 22,
+    title: 40
 }
 
 const fontFamily = {

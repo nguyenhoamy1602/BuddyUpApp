@@ -5,6 +5,7 @@ import {Button, SocialIcon} from 'react-native-elements'
 import {Actions} from 'react-native-router-flux'
 import {connect} from 'react-redux';
 import {Facebook} from 'expo';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 import {actions as auth, constants as c} from "../"
 const {signInWithFacebook} = auth;
@@ -44,6 +45,8 @@ class Welcome extends React.Component {
         return (
             <AuthContainer>
                 <View style={styles.wrapper}>
+                    <Icon name="ios-people-outline" size={100} color = "white">
+                    </Icon>
                     <Text style={styles.appTitle}>Buddy Up</Text>
                 </View>
                 <View>
@@ -56,24 +59,7 @@ class Welcome extends React.Component {
                         style={styles.fbButton}
                         onPress={this.onSignInWithFacebook}/>
 
-                    <View style={styles.bottomContainer}>
-                        <Button
-                            raised
-                            title={'Sign up'}
-                            borderRadius={4}
-                            containerViewStyle={styles.buttonContainer}
-                            buttonStyle={{}}
-                            textStyle={styles.buttonText}
-                            onPress={Actions.Register}/>
-                        <Button
-                            raised
-                            title={'Login'}
-                            borderRadius={4}
-                            containerViewStyle={[styles.buttonContainer]}
-                            buttonStyle={{}}
-                            textStyle={styles.buttonText}
-                            onPress={Actions.Login}/>
-                    </View>
+                    <View style={styles.bottomContainer}/>
                 </View>
             </AuthContainer>
         );

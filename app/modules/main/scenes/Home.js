@@ -34,10 +34,20 @@ class Home extends React.Component {
             <View style={styles.container}>
                 <Button
                     raised
-                    title={'LOG OUT'}
+                    title={'Edit my free time'}
                     borderRadius={4}
                     backgroundColor={color.main}
                     containerViewStyle={styles.buttonContainer}
+                    buttonStyle={{}} //optional
+                    textStyle={styles.buttonText}
+                    onPress={this.onSignOut.bind(this)}/>
+
+                <Button
+                    raised
+                    title={'Show my free time for friends in'}
+                    borderRadius={4}
+                    backgroundColor={color.main}
+                    containerViewStyle={styles.test}
                     buttonStyle={{}} //optional
                     textStyle={styles.buttonText}
                     onPress={this.onSignOut.bind(this)}/>
@@ -65,6 +75,10 @@ const styles = StyleSheet.create({
 
     buttonContainer:{
         marginVertical:0, marginHorizontal:0
+    },
+
+    test:{
+        marginVertical:30, marginHorizontal:0
     },
 
     buttonText:{

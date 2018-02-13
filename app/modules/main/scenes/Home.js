@@ -8,6 +8,7 @@ import {connect} from 'react-redux';
 import { color } from "../../../styles/Theme"
 
 import { actions as auth } from "../../auth"
+
 var { signOut } = auth;
 
 class Home extends React.Component {
@@ -51,10 +52,17 @@ class Home extends React.Component {
                     buttonStyle={{}} //optional
                     textStyle={styles.buttonText}
                     onPress={this.onSignOut.bind(this)}/>
+
+
             </View>
         );
+
     }
 }
+
+
+
+
 
 function mapStateToProps(state, props) {
     return {

@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41709A9E5270B3A3F7E6AF9C /* libPods-BuddyUpApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F19EA837D62BA5E66CB98D05 /* libPods-BuddyUpApp.a */; };
 		5670FAA42032FE2F001C60D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5670FAA32032FE2F001C60D6 /* AppDelegate.swift */; };
-		5670FAA62032FE2F001C60D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5670FAA52032FE2F001C60D6 /* ViewController.swift */; };
+		5670FAA62032FE2F001C60D6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5670FAA52032FE2F001C60D6 /* SignUpViewController.swift */; };
 		5670FAA92032FE2F001C60D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5670FAA72032FE2F001C60D6 /* Main.storyboard */; };
 		5670FAAC2032FE2F001C60D6 /* BuddyUpApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5670FAAA2032FE2F001C60D6 /* BuddyUpApp.xcdatamodeld */; };
 		5670FAAE2032FE2F001C60D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5670FAAD2032FE2F001C60D6 /* Assets.xcassets */; };
 		5670FAB12032FE2F001C60D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5670FAAF2032FE2F001C60D6 /* LaunchScreen.storyboard */; };
+		5670FAB920330ACB001C60D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5670FAB820330ACB001C60D6 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19E4807EC87AAE147AE8788E /* Pods-BuddyUpApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyUpApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyUpApp/Pods-BuddyUpApp.debug.xcconfig"; sourceTree = "<group>"; };
 		5670FAA02032FE2F001C60D6 /* BuddyUpApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddyUpApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5670FAA32032FE2F001C60D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5670FAA52032FE2F001C60D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5670FAA52032FE2F001C60D6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		5670FAA82032FE2F001C60D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5670FAAB2032FE2F001C60D6 /* BuddyUpApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BuddyUpApp.xcdatamodel; sourceTree = "<group>"; };
 		5670FAAD2032FE2F001C60D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5670FAB02032FE2F001C60D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5670FAB22032FE2F001C60D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5670FAB820330ACB001C60D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7A8C1F813263EAA00A0BA8C1 /* Pods-BuddyUpApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyUpApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyUpApp/Pods-BuddyUpApp.release.xcconfig"; sourceTree = "<group>"; };
+		F19EA837D62BA5E66CB98D05 /* libPods-BuddyUpApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuddyUpApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41709A9E5270B3A3F7E6AF9C /* libPods-BuddyUpApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				5670FAA22032FE2F001C60D6 /* BuddyUpApp */,
 				5670FAA12032FE2F001C60D6 /* Products */,
+				A55DDCDA5C542707D4EC6DAB /* Pods */,
+				56881090DA50A357BAF38183 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +66,32 @@
 			isa = PBXGroup;
 			children = (
 				5670FAA32032FE2F001C60D6 /* AppDelegate.swift */,
-				5670FAA52032FE2F001C60D6 /* ViewController.swift */,
+				5670FAA52032FE2F001C60D6 /* SignUpViewController.swift */,
 				5670FAA72032FE2F001C60D6 /* Main.storyboard */,
 				5670FAAD2032FE2F001C60D6 /* Assets.xcassets */,
 				5670FAAF2032FE2F001C60D6 /* LaunchScreen.storyboard */,
+				5670FAB820330ACB001C60D6 /* GoogleService-Info.plist */,
 				5670FAB22032FE2F001C60D6 /* Info.plist */,
 				5670FAAA2032FE2F001C60D6 /* BuddyUpApp.xcdatamodeld */,
 			);
 			path = BuddyUpApp;
+			sourceTree = "<group>";
+		};
+		56881090DA50A357BAF38183 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F19EA837D62BA5E66CB98D05 /* libPods-BuddyUpApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A55DDCDA5C542707D4EC6DAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19E4807EC87AAE147AE8788E /* Pods-BuddyUpApp.debug.xcconfig */,
+				7A8C1F813263EAA00A0BA8C1 /* Pods-BuddyUpApp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5670FAB52032FE2F001C60D6 /* Build configuration list for PBXNativeTarget "BuddyUpApp" */;
 			buildPhases = (
+				063548BB8C6054AF49D3BAD9 /* [CP] Check Pods Manifest.lock */,
 				5670FA9C2032FE2F001C60D6 /* Sources */,
 				5670FA9D2032FE2F001C60D6 /* Frameworks */,
 				5670FA9E2032FE2F001C60D6 /* Resources */,
+				73A14106E41E606DFCA6DD71 /* [CP] Embed Pods Frameworks */,
+				F0F421F9C74A979474622169 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5670FAB12032FE2F001C60D6 /* LaunchScreen.storyboard in Resources */,
+				5670FAB920330ACB001C60D6 /* GoogleService-Info.plist in Resources */,
 				5670FAAE2032FE2F001C60D6 /* Assets.xcassets in Resources */,
 				5670FAA92032FE2F001C60D6 /* Main.storyboard in Resources */,
 			);
@@ -134,12 +165,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		063548BB8C6054AF49D3BAD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuddyUpApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73A14106E41E606DFCA6DD71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuddyUpApp/Pods-BuddyUpApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0F421F9C74A979474622169 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuddyUpApp/Pods-BuddyUpApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5670FA9C2032FE2F001C60D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5670FAA62032FE2F001C60D6 /* ViewController.swift in Sources */,
+				5670FAA62032FE2F001C60D6 /* SignUpViewController.swift in Sources */,
 				5670FAAC2032FE2F001C60D6 /* BuddyUpApp.xcdatamodeld in Sources */,
 				5670FAA42032FE2F001C60D6 /* AppDelegate.swift in Sources */,
 			);
@@ -276,6 +358,7 @@
 		};
 		5670FAB62032FE2F001C60D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19E4807EC87AAE147AE8788E /* Pods-BuddyUpApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +374,7 @@
 		};
 		5670FAB72032FE2F001C60D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A8C1F813263EAA00A0BA8C1 /* Pods-BuddyUpApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -57,10 +57,10 @@
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="4jO-1f-Ved">
             <objects>
-                <viewController id="ZIw-oH-6lb" sceneMemberID="viewController">
+                <viewController id="ZIw-oH-6lb" customClass="SignUpViewController" customModule="BuddyUpApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vYf-fY-y99">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

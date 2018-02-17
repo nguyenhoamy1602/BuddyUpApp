@@ -117,9 +117,12 @@
                                 <rect key="frame" x="29" y="495" width="313" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.041409879249999997" green="0.66534740670000003" blue="0.96023292439999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Register Account">
+                                <state key="normal" title="Create Account">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="createAccount:" destination="ZIw-oH-6lb" eventType="touchUpInside" id="Py0-M9-Och"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Hello1234" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="12D-An-iCt">
                                 <rect key="frame" x="29" y="421" width="313" height="30"/>
@@ -132,10 +135,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="AzL-TJ-qov"/>
                     </view>
+                    <connections>
+                        <outlet property="email" destination="Gpk-YV-JAD" id="Ra1-Cf-YJG"/>
+                        <outlet property="password" destination="12D-An-iCt" id="deS-VY-0KJ"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="goToInitial" id="Lr7-Z1-Fss"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u8c-AV-hlz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="909.60000000000002" y="117.39130434782609"/>
+            <point key="canvasLocation" x="1031" y="18"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="hwF-en-lTs">
@@ -265,6 +273,6 @@
         <image name="logo" width="52" height="43"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="jD2-WF-zgs"/>
+        <segue reference="Lr7-Z1-Fss"/>
     </inferredMetricsTieBreakers>
 </document>

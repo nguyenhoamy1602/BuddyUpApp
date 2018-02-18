@@ -16,6 +16,10 @@
 		5670FAB12032FE2F001C60D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5670FAAF2032FE2F001C60D6 /* LaunchScreen.storyboard */; };
 		5670FAB920330ACB001C60D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5670FAB820330ACB001C60D6 /* GoogleService-Info.plist */; };
 		567445932033C70F00AF4BB5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567445922033C70F00AF4BB5 /* LoginViewController.swift */; };
+		56BEFD7320394D5500BFE537 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BEFD6C20394D5500BFE537 /* BEMAnimationManager.m */; };
+		56BEFD7420394D5500BFE537 /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BEFD6D20394D5500BFE537 /* BEMPathManager.m */; };
+		56BEFD7520394D5500BFE537 /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BEFD6E20394D5500BFE537 /* BEMCheckBoxGroup.m */; };
+		56BEFD7620394D5500BFE537 /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BEFD7020394D5500BFE537 /* BEMCheckBox.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,15 @@
 		5670FAB22032FE2F001C60D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5670FAB820330ACB001C60D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		567445922033C70F00AF4BB5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		56BEFD6920394B9000BFE537 /* CheckMarkHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckMarkHeader.h; sourceTree = "<group>"; };
+		56BEFD6B20394D5500BFE537 /* BEMCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCheckBox.h; sourceTree = "<group>"; };
+		56BEFD6C20394D5500BFE537 /* BEMAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMAnimationManager.m; sourceTree = "<group>"; };
+		56BEFD6D20394D5500BFE537 /* BEMPathManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMPathManager.m; sourceTree = "<group>"; };
+		56BEFD6E20394D5500BFE537 /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBoxGroup.m; sourceTree = "<group>"; };
+		56BEFD6F20394D5500BFE537 /* BEMAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMAnimationManager.h; sourceTree = "<group>"; };
+		56BEFD7020394D5500BFE537 /* BEMCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBox.m; sourceTree = "<group>"; };
+		56BEFD7120394D5500BFE537 /* BEMPathManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMPathManager.h; sourceTree = "<group>"; };
+		56BEFD7220394D5500BFE537 /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCheckBoxGroup.h; sourceTree = "<group>"; };
 		7A8C1F813263EAA00A0BA8C1 /* Pods-BuddyUpApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyUpApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyUpApp/Pods-BuddyUpApp.release.xcconfig"; sourceTree = "<group>"; };
 		F19EA837D62BA5E66CB98D05 /* libPods-BuddyUpApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuddyUpApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -49,6 +62,7 @@
 		5670FA972032FE2F001C60D6 = {
 			isa = PBXGroup;
 			children = (
+				56BEFD6920394B9000BFE537 /* CheckMarkHeader.h */,
 				5670FAA22032FE2F001C60D6 /* BuddyUpApp */,
 				5670FAA12032FE2F001C60D6 /* Products */,
 				A55DDCDA5C542707D4EC6DAB /* Pods */,
@@ -67,6 +81,7 @@
 		5670FAA22032FE2F001C60D6 /* BuddyUpApp */ = {
 			isa = PBXGroup;
 			children = (
+				56BEFD6A20394D5500BFE537 /* Classes */,
 				5670FAA32032FE2F001C60D6 /* AppDelegate.swift */,
 				5670FAA52032FE2F001C60D6 /* SignUpViewController.swift */,
 				567445922033C70F00AF4BB5 /* LoginViewController.swift */,
@@ -86,6 +101,21 @@
 				F19EA837D62BA5E66CB98D05 /* libPods-BuddyUpApp.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56BEFD6A20394D5500BFE537 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				56BEFD6B20394D5500BFE537 /* BEMCheckBox.h */,
+				56BEFD6C20394D5500BFE537 /* BEMAnimationManager.m */,
+				56BEFD6D20394D5500BFE537 /* BEMPathManager.m */,
+				56BEFD6E20394D5500BFE537 /* BEMCheckBoxGroup.m */,
+				56BEFD6F20394D5500BFE537 /* BEMAnimationManager.h */,
+				56BEFD7020394D5500BFE537 /* BEMCheckBox.m */,
+				56BEFD7120394D5500BFE537 /* BEMPathManager.h */,
+				56BEFD7220394D5500BFE537 /* BEMCheckBoxGroup.h */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		A55DDCDA5C542707D4EC6DAB /* Pods */ = {
@@ -225,6 +255,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				567445932033C70F00AF4BB5 /* LoginViewController.swift in Sources */,
+				56BEFD7420394D5500BFE537 /* BEMPathManager.m in Sources */,
+				56BEFD7520394D5500BFE537 /* BEMCheckBoxGroup.m in Sources */,
+				56BEFD7620394D5500BFE537 /* BEMCheckBox.m in Sources */,
+				56BEFD7320394D5500BFE537 /* BEMAnimationManager.m in Sources */,
 				5670FAA62032FE2F001C60D6 /* SignUpViewController.swift in Sources */,
 				5670FAAC2032FE2F001C60D6 /* BuddyUpApp.xcdatamodeld in Sources */,
 				5670FAA42032FE2F001C60D6 /* AppDelegate.swift in Sources */,
@@ -372,6 +406,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Arizec.BuddyUpApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = CheckMarkHeader.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -389,6 +424,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Arizec.BuddyUpApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = CheckMarkHeader.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

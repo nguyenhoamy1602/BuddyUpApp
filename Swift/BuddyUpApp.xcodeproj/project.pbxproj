@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		41709A9E5270B3A3F7E6AF9C /* libPods-BuddyUpApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F19EA837D62BA5E66CB98D05 /* libPods-BuddyUpApp.a */; };
+		3F6EA42E976011F776965B13 /* Pods_BuddyUpApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1B3E375F84FB1EEDBFCF2D /* Pods_BuddyUpApp.framework */; };
 		5670FAA42032FE2F001C60D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5670FAA32032FE2F001C60D6 /* AppDelegate.swift */; };
 		5670FAA62032FE2F001C60D6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5670FAA52032FE2F001C60D6 /* SignUpViewController.swift */; };
 		5670FAA92032FE2F001C60D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5670FAA72032FE2F001C60D6 /* Main.storyboard */; };
@@ -20,9 +20,12 @@
 		56BEFD7420394D5500BFE537 /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BEFD6D20394D5500BFE537 /* BEMPathManager.m */; };
 		56BEFD7520394D5500BFE537 /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BEFD6E20394D5500BFE537 /* BEMCheckBoxGroup.m */; };
 		56BEFD7620394D5500BFE537 /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BEFD7020394D5500BFE537 /* BEMCheckBox.m */; };
+		56BEFD7A20396B7500BFE537 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BEFD7920396B7500BFE537 /* CustomCell.swift */; };
+		56BEFD7C20396E4F00BFE537 /* TimetableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BEFD7B20396E4F00BFE537 /* TimetableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B1B3E375F84FB1EEDBFCF2D /* Pods_BuddyUpApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuddyUpApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19E4807EC87AAE147AE8788E /* Pods-BuddyUpApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyUpApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyUpApp/Pods-BuddyUpApp.debug.xcconfig"; sourceTree = "<group>"; };
 		5670FAA02032FE2F001C60D6 /* BuddyUpApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddyUpApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5670FAA32032FE2F001C60D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,8 +46,9 @@
 		56BEFD7020394D5500BFE537 /* BEMCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBox.m; sourceTree = "<group>"; };
 		56BEFD7120394D5500BFE537 /* BEMPathManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMPathManager.h; sourceTree = "<group>"; };
 		56BEFD7220394D5500BFE537 /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCheckBoxGroup.h; sourceTree = "<group>"; };
+		56BEFD7920396B7500BFE537 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		56BEFD7B20396E4F00BFE537 /* TimetableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableViewController.swift; sourceTree = "<group>"; };
 		7A8C1F813263EAA00A0BA8C1 /* Pods-BuddyUpApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyUpApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyUpApp/Pods-BuddyUpApp.release.xcconfig"; sourceTree = "<group>"; };
-		F19EA837D62BA5E66CB98D05 /* libPods-BuddyUpApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuddyUpApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41709A9E5270B3A3F7E6AF9C /* libPods-BuddyUpApp.a in Frameworks */,
+				3F6EA42E976011F776965B13 /* Pods_BuddyUpApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +89,8 @@
 				5670FAA32032FE2F001C60D6 /* AppDelegate.swift */,
 				5670FAA52032FE2F001C60D6 /* SignUpViewController.swift */,
 				567445922033C70F00AF4BB5 /* LoginViewController.swift */,
+				56BEFD7B20396E4F00BFE537 /* TimetableViewController.swift */,
+				56BEFD7920396B7500BFE537 /* CustomCell.swift */,
 				5670FAA72032FE2F001C60D6 /* Main.storyboard */,
 				5670FAAD2032FE2F001C60D6 /* Assets.xcassets */,
 				5670FAAF2032FE2F001C60D6 /* LaunchScreen.storyboard */,
@@ -98,7 +104,7 @@
 		56881090DA50A357BAF38183 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F19EA837D62BA5E66CB98D05 /* libPods-BuddyUpApp.a */,
+				0B1B3E375F84FB1EEDBFCF2D /* Pods_BuddyUpApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -223,9 +229,18 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BuddyUpApp/Pods-BuddyUpApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -256,8 +271,10 @@
 			files = (
 				567445932033C70F00AF4BB5 /* LoginViewController.swift in Sources */,
 				56BEFD7420394D5500BFE537 /* BEMPathManager.m in Sources */,
+				56BEFD7C20396E4F00BFE537 /* TimetableViewController.swift in Sources */,
 				56BEFD7520394D5500BFE537 /* BEMCheckBoxGroup.m in Sources */,
 				56BEFD7620394D5500BFE537 /* BEMCheckBox.m in Sources */,
+				56BEFD7A20396B7500BFE537 /* CustomCell.swift in Sources */,
 				56BEFD7320394D5500BFE537 /* BEMAnimationManager.m in Sources */,
 				5670FAA62032FE2F001C60D6 /* SignUpViewController.swift in Sources */,
 				5670FAAC2032FE2F001C60D6 /* BuddyUpApp.xcdatamodeld in Sources */,

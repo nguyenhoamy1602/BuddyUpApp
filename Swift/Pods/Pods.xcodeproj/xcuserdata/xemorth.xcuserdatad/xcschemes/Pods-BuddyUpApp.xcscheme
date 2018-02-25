@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FB9EE88B0A68152A0850CB82EB2665E9"
-               BuildableName = "libPods-BuddyUpApp.a"
+               BlueprintIdentifier = "7D00641221AF3977DCEEBE225762C038"
+               BuildableName = "Pods_BuddyUpApp.framework"
                BlueprintName = "Pods-BuddyUpApp"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
@@ -47,8 +47,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FB9EE88B0A68152A0850CB82EB2665E9"
-            BuildableName = "libPods-BuddyUpApp.a"
+            BlueprintIdentifier = "7D00641221AF3977DCEEBE225762C038"
+            BuildableName = "Pods_BuddyUpApp.framework"
             BlueprintName = "Pods-BuddyUpApp"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>

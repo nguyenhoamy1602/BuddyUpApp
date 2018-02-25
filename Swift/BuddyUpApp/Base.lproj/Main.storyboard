@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -7,7 +7,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -15,6 +14,10 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BuddyUpApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oin-eO-I7w"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fv8-yV-f4M"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -62,20 +65,19 @@
                         </subviews>
                         <color key="backgroundColor" red="0.04140987925175206" green="0.66534740668529868" blue="0.96023292440318297" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="W8V-56-89y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="153" id="CCl-HK-5an"/>
-                            <constraint firstItem="jVC-FN-puC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="39" id="CD1-QQ-9Yq"/>
-                            <constraint firstItem="W8V-56-89y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="143.5" id="XpH-Jt-INj"/>
+                            <constraint firstItem="W8V-56-89y" firstAttribute="top" secondItem="oin-eO-I7w" secondAttribute="bottom" constant="153" id="CCl-HK-5an"/>
+                            <constraint firstItem="jVC-FN-puC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="39" id="CD1-QQ-9Yq"/>
+                            <constraint firstItem="W8V-56-89y" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="143.5" id="XpH-Jt-INj"/>
                             <constraint firstItem="SFL-Uv-sTO" firstAttribute="top" secondItem="jVC-FN-puC" secondAttribute="bottom" constant="24" id="ZfX-TT-WwR"/>
                             <constraint firstItem="jVC-FN-puC" firstAttribute="leading" secondItem="SFL-Uv-sTO" secondAttribute="leading" id="a6x-Ft-B4h"/>
-                            <constraint firstItem="W8V-56-89y" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="fbH-nD-uxY"/>
+                            <constraint firstItem="W8V-56-89y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fbH-nD-uxY"/>
                             <constraint firstItem="jVC-FN-puC" firstAttribute="centerX" secondItem="thX-hM-oMh" secondAttribute="centerX" id="ktW-hs-6fE"/>
-                            <constraint firstItem="thX-hM-oMh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="nau-m2-qQ8"/>
+                            <constraint firstItem="thX-hM-oMh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nau-m2-qQ8"/>
                             <constraint firstItem="thX-hM-oMh" firstAttribute="top" secondItem="W8V-56-89y" secondAttribute="bottom" constant="1" id="qvH-8c-QIW"/>
                             <constraint firstItem="jVC-FN-puC" firstAttribute="centerX" secondItem="SFL-Uv-sTO" secondAttribute="centerX" id="rb9-Cm-RhA"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W8V-56-89y" secondAttribute="trailing" constant="143.5" id="wSf-Ds-AhV"/>
+                            <constraint firstAttribute="trailing" secondItem="W8V-56-89y" secondAttribute="trailing" constant="143.5" id="wSf-Ds-AhV"/>
                             <constraint firstItem="jVC-FN-puC" firstAttribute="top" secondItem="thX-hM-oMh" secondAttribute="bottom" constant="34" id="xRw-K0-t32"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -86,6 +88,10 @@
         <scene sceneID="4jO-1f-Ved">
             <objects>
                 <viewController id="ZIw-oH-6lb" customClass="SignUpViewController" customModule="BuddyUpApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rgC-5B-OdU"/>
+                        <viewControllerLayoutGuide type="bottom" id="HXy-rQ-hsQ"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="vYf-fY-y99">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -163,30 +169,29 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="c6k-85-ayv" firstAttribute="trailing" secondItem="AzL-TJ-qov" secondAttribute="trailing" id="0xe-7Y-EDi"/>
-                            <constraint firstItem="gfx-Vd-VQJ" firstAttribute="leading" secondItem="AzL-TJ-qov" secondAttribute="leading" constant="29" id="2eI-OB-yt4"/>
+                            <constraint firstItem="c6k-85-ayv" firstAttribute="trailing" secondItem="vYf-fY-y99" secondAttribute="trailing" id="0xe-7Y-EDi"/>
+                            <constraint firstItem="gfx-Vd-VQJ" firstAttribute="leading" secondItem="vYf-fY-y99" secondAttribute="leading" constant="29" id="2eI-OB-yt4"/>
                             <constraint firstItem="6gq-iO-3JR" firstAttribute="top" secondItem="Nvg-Sb-NP2" secondAttribute="bottom" constant="4" id="3AD-6J-lUZ"/>
-                            <constraint firstItem="P3a-mz-0rS" firstAttribute="trailing" secondItem="AzL-TJ-qov" secondAttribute="trailing" id="3RO-FZ-QMI"/>
-                            <constraint firstItem="AzL-TJ-qov" firstAttribute="trailing" secondItem="12D-An-iCt" secondAttribute="trailing" constant="33" id="6bK-8I-IPV"/>
-                            <constraint firstItem="Nvg-Sb-NP2" firstAttribute="leading" secondItem="AzL-TJ-qov" secondAttribute="leading" constant="117" id="71l-yw-r2h"/>
-                            <constraint firstItem="Nvg-Sb-NP2" firstAttribute="top" secondItem="AzL-TJ-qov" secondAttribute="top" constant="101" id="A1q-kH-3TM"/>
+                            <constraint firstItem="P3a-mz-0rS" firstAttribute="trailing" secondItem="vYf-fY-y99" secondAttribute="trailing" id="3RO-FZ-QMI"/>
+                            <constraint firstAttribute="trailing" secondItem="12D-An-iCt" secondAttribute="trailing" constant="33" id="6bK-8I-IPV"/>
+                            <constraint firstItem="Nvg-Sb-NP2" firstAttribute="leading" secondItem="vYf-fY-y99" secondAttribute="leading" constant="117" id="71l-yw-r2h"/>
+                            <constraint firstItem="Nvg-Sb-NP2" firstAttribute="top" secondItem="rgC-5B-OdU" secondAttribute="bottom" constant="101" id="A1q-kH-3TM"/>
                             <constraint firstItem="12D-An-iCt" firstAttribute="top" secondItem="c6k-85-ayv" secondAttribute="bottom" constant="8" id="EwX-oU-D57"/>
-                            <constraint firstItem="Gpk-YV-JAD" firstAttribute="leading" secondItem="AzL-TJ-qov" secondAttribute="leading" constant="29" id="HKt-ky-ym0"/>
-                            <constraint firstItem="12D-An-iCt" firstAttribute="leading" secondItem="AzL-TJ-qov" secondAttribute="leading" constant="29" id="If3-Ix-idC"/>
-                            <constraint firstItem="c6k-85-ayv" firstAttribute="leading" secondItem="AzL-TJ-qov" secondAttribute="leading" constant="29" id="Oth-Uu-Q5D"/>
+                            <constraint firstItem="Gpk-YV-JAD" firstAttribute="leading" secondItem="vYf-fY-y99" secondAttribute="leading" constant="29" id="HKt-ky-ym0"/>
+                            <constraint firstItem="12D-An-iCt" firstAttribute="leading" secondItem="vYf-fY-y99" secondAttribute="leading" constant="29" id="If3-Ix-idC"/>
+                            <constraint firstItem="c6k-85-ayv" firstAttribute="leading" secondItem="vYf-fY-y99" secondAttribute="leading" constant="29" id="Oth-Uu-Q5D"/>
                             <constraint firstItem="gfx-Vd-VQJ" firstAttribute="top" secondItem="12D-An-iCt" secondAttribute="bottom" constant="36" id="Rso-eV-ckf"/>
                             <constraint firstItem="P3a-mz-0rS" firstAttribute="top" secondItem="6gq-iO-3JR" secondAttribute="bottom" constant="35.5" id="aSh-Fb-dY7"/>
                             <constraint firstItem="c6k-85-ayv" firstAttribute="top" secondItem="Gpk-YV-JAD" secondAttribute="bottom" constant="19" id="ady-yr-qLH"/>
-                            <constraint firstItem="Gpk-YV-JAD" firstAttribute="centerX" secondItem="AzL-TJ-qov" secondAttribute="centerX" constant="-2" id="d3L-nx-dfA"/>
-                            <constraint firstItem="P3a-mz-0rS" firstAttribute="leading" secondItem="AzL-TJ-qov" secondAttribute="leading" constant="29" id="eTT-tb-syC"/>
-                            <constraint firstItem="AzL-TJ-qov" firstAttribute="trailing" secondItem="gfx-Vd-VQJ" secondAttribute="trailing" constant="33" id="fb3-An-Ses"/>
-                            <constraint firstItem="6gq-iO-3JR" firstAttribute="centerX" secondItem="AzL-TJ-qov" secondAttribute="centerX" id="iNo-Ex-ksQ"/>
-                            <constraint firstItem="AzL-TJ-qov" firstAttribute="trailing" secondItem="Nvg-Sb-NP2" secondAttribute="trailing" constant="117" id="p3I-Qu-wo3"/>
+                            <constraint firstItem="Gpk-YV-JAD" firstAttribute="centerX" secondItem="vYf-fY-y99" secondAttribute="centerX" constant="-2" id="d3L-nx-dfA"/>
+                            <constraint firstItem="P3a-mz-0rS" firstAttribute="leading" secondItem="vYf-fY-y99" secondAttribute="leading" constant="29" id="eTT-tb-syC"/>
+                            <constraint firstAttribute="trailing" secondItem="gfx-Vd-VQJ" secondAttribute="trailing" constant="33" id="fb3-An-Ses"/>
+                            <constraint firstItem="6gq-iO-3JR" firstAttribute="centerX" secondItem="vYf-fY-y99" secondAttribute="centerX" id="iNo-Ex-ksQ"/>
+                            <constraint firstAttribute="trailing" secondItem="Nvg-Sb-NP2" secondAttribute="trailing" constant="117" id="p3I-Qu-wo3"/>
                             <constraint firstItem="Gpk-YV-JAD" firstAttribute="top" secondItem="P3a-mz-0rS" secondAttribute="bottom" constant="15" id="pvo-s0-Pk6"/>
-                            <constraint firstItem="P3a-mz-0rS" firstAttribute="top" secondItem="AzL-TJ-qov" secondAttribute="top" constant="279" id="tbC-M9-weM"/>
-                            <constraint firstItem="Nvg-Sb-NP2" firstAttribute="centerX" secondItem="AzL-TJ-qov" secondAttribute="centerX" id="vbG-d1-XuJ"/>
+                            <constraint firstItem="P3a-mz-0rS" firstAttribute="top" secondItem="rgC-5B-OdU" secondAttribute="bottom" constant="279" id="tbC-M9-weM"/>
+                            <constraint firstItem="Nvg-Sb-NP2" firstAttribute="centerX" secondItem="vYf-fY-y99" secondAttribute="centerX" id="vbG-d1-XuJ"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="AzL-TJ-qov"/>
                     </view>
                     <connections>
                         <outlet property="email" destination="Gpk-YV-JAD" id="Ra1-Cf-YJG"/>
@@ -202,6 +207,10 @@
         <scene sceneID="hwF-en-lTs">
             <objects>
                 <viewController id="KZI-IC-vuS" customClass="LoginViewController" customModule="BuddyUpApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xma-lN-U7H"/>
+                        <viewControllerLayoutGuide type="bottom" id="0gK-aO-n5c"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Gkp-cL-HvH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -273,29 +282,28 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="wxA-8d-VQY" firstAttribute="trailing" secondItem="2zf-eR-D5E" secondAttribute="trailing" id="6x0-aV-MYN"/>
-                            <constraint firstItem="vQb-hR-8wO" firstAttribute="trailing" secondItem="2zf-eR-D5E" secondAttribute="trailing" id="9L0-4P-5rg"/>
-                            <constraint firstItem="5hi-Vx-cjR" firstAttribute="leading" secondItem="2zf-eR-D5E" secondAttribute="leading" constant="117" id="HqN-jj-N07"/>
-                            <constraint firstItem="2zf-eR-D5E" firstAttribute="trailing" secondItem="zTo-h9-GSL" secondAttribute="trailing" constant="33" id="LcQ-hd-3H1"/>
+                            <constraint firstItem="wxA-8d-VQY" firstAttribute="trailing" secondItem="Gkp-cL-HvH" secondAttribute="trailing" id="6x0-aV-MYN"/>
+                            <constraint firstItem="vQb-hR-8wO" firstAttribute="trailing" secondItem="Gkp-cL-HvH" secondAttribute="trailing" id="9L0-4P-5rg"/>
+                            <constraint firstItem="5hi-Vx-cjR" firstAttribute="leading" secondItem="Gkp-cL-HvH" secondAttribute="leading" constant="117" id="HqN-jj-N07"/>
+                            <constraint firstAttribute="trailing" secondItem="zTo-h9-GSL" secondAttribute="trailing" constant="33" id="LcQ-hd-3H1"/>
                             <constraint firstItem="Xmq-rh-PXj" firstAttribute="top" secondItem="bIU-Ny-XSS" secondAttribute="bottom" constant="8" id="OVq-sz-gh7"/>
-                            <constraint firstItem="zTo-h9-GSL" firstAttribute="leading" secondItem="2zf-eR-D5E" secondAttribute="leading" constant="29" id="Ohu-Wu-oe7"/>
-                            <constraint firstItem="2zf-eR-D5E" firstAttribute="trailing" secondItem="NPD-8J-mYV" secondAttribute="trailing" constant="33" id="Omq-cY-9Aa"/>
-                            <constraint firstItem="2zf-eR-D5E" firstAttribute="trailing" secondItem="5hi-Vx-cjR" secondAttribute="trailing" constant="118" id="PqK-Pi-Hp9"/>
-                            <constraint firstItem="5hi-Vx-cjR" firstAttribute="top" secondItem="2zf-eR-D5E" secondAttribute="top" constant="104" id="Tv8-9h-O5N"/>
+                            <constraint firstItem="zTo-h9-GSL" firstAttribute="leading" secondItem="Gkp-cL-HvH" secondAttribute="leading" constant="29" id="Ohu-Wu-oe7"/>
+                            <constraint firstAttribute="trailing" secondItem="NPD-8J-mYV" secondAttribute="trailing" constant="33" id="Omq-cY-9Aa"/>
+                            <constraint firstAttribute="trailing" secondItem="5hi-Vx-cjR" secondAttribute="trailing" constant="118" id="PqK-Pi-Hp9"/>
+                            <constraint firstItem="5hi-Vx-cjR" firstAttribute="top" secondItem="xma-lN-U7H" secondAttribute="bottom" constant="104" id="Tv8-9h-O5N"/>
                             <constraint firstItem="wxA-8d-VQY" firstAttribute="top" secondItem="vQb-hR-8wO" secondAttribute="bottom" constant="35.5" id="ZDh-1l-bIH"/>
                             <constraint firstItem="bIU-Ny-XSS" firstAttribute="top" secondItem="NPD-8J-mYV" secondAttribute="bottom" constant="27" id="cMr-Rr-OjJ"/>
-                            <constraint firstItem="NPD-8J-mYV" firstAttribute="leading" secondItem="2zf-eR-D5E" secondAttribute="leading" constant="29" id="cX8-nt-3mu"/>
-                            <constraint firstItem="bIU-Ny-XSS" firstAttribute="leading" secondItem="2zf-eR-D5E" secondAttribute="leading" constant="29" id="h05-vl-xZL"/>
+                            <constraint firstItem="NPD-8J-mYV" firstAttribute="leading" secondItem="Gkp-cL-HvH" secondAttribute="leading" constant="29" id="cX8-nt-3mu"/>
+                            <constraint firstItem="bIU-Ny-XSS" firstAttribute="leading" secondItem="Gkp-cL-HvH" secondAttribute="leading" constant="29" id="h05-vl-xZL"/>
                             <constraint firstItem="vQb-hR-8wO" firstAttribute="top" secondItem="5hi-Vx-cjR" secondAttribute="bottom" constant="2" id="i2i-fV-kT2"/>
-                            <constraint firstItem="bIU-Ny-XSS" firstAttribute="trailing" secondItem="2zf-eR-D5E" secondAttribute="trailing" id="k9b-cy-Qim"/>
-                            <constraint firstItem="Xmq-rh-PXj" firstAttribute="leading" secondItem="2zf-eR-D5E" secondAttribute="leading" constant="29" id="sFI-qX-e7Z"/>
-                            <constraint firstItem="2zf-eR-D5E" firstAttribute="trailing" secondItem="Xmq-rh-PXj" secondAttribute="trailing" constant="33" id="tNb-BX-3kb"/>
-                            <constraint firstItem="wxA-8d-VQY" firstAttribute="leading" secondItem="2zf-eR-D5E" secondAttribute="leading" constant="29" id="uE7-OO-Kqc"/>
+                            <constraint firstItem="bIU-Ny-XSS" firstAttribute="trailing" secondItem="Gkp-cL-HvH" secondAttribute="trailing" id="k9b-cy-Qim"/>
+                            <constraint firstItem="Xmq-rh-PXj" firstAttribute="leading" secondItem="Gkp-cL-HvH" secondAttribute="leading" constant="29" id="sFI-qX-e7Z"/>
+                            <constraint firstAttribute="trailing" secondItem="Xmq-rh-PXj" secondAttribute="trailing" constant="33" id="tNb-BX-3kb"/>
+                            <constraint firstItem="wxA-8d-VQY" firstAttribute="leading" secondItem="Gkp-cL-HvH" secondAttribute="leading" constant="29" id="uE7-OO-Kqc"/>
                             <constraint firstItem="zTo-h9-GSL" firstAttribute="top" secondItem="Xmq-rh-PXj" secondAttribute="bottom" constant="44" id="vIs-HK-rR4"/>
                             <constraint firstItem="NPD-8J-mYV" firstAttribute="top" secondItem="wxA-8d-VQY" secondAttribute="bottom" constant="15" id="xxH-am-eKg"/>
-                            <constraint firstItem="vQb-hR-8wO" firstAttribute="leading" secondItem="2zf-eR-D5E" secondAttribute="leading" id="zBX-VM-OA1"/>
+                            <constraint firstItem="vQb-hR-8wO" firstAttribute="leading" secondItem="Gkp-cL-HvH" secondAttribute="leading" id="zBX-VM-OA1"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="2zf-eR-D5E"/>
                     </view>
                     <connections>
                         <outlet property="email" destination="NPD-8J-mYV" id="Dod-ef-VZp"/>
@@ -311,6 +319,10 @@
         <scene sceneID="NfC-dg-Igw">
             <objects>
                 <viewController title="Homepage" id="iod-7L-b92" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6jd-j6-0WC"/>
+                        <viewControllerLayoutGuide type="bottom" id="gSa-aP-NCT"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="0rE-iI-pVP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -432,22 +444,25 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="nIo-Px-rlv"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kb9-ep-tmH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1724" y="796.55172413793105"/>
         </scene>
-        <!--Timetable View Controller-->
+        <!--Ib Calendar Data Source-->
         <scene sceneID="k6p-Cp-tyN">
             <objects>
                 <viewController id="55i-25-UCj" customClass="TimetableViewController" customModule="BuddyUpApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3Qc-Xb-ccz"/>
+                        <viewControllerLayoutGuide type="bottom" id="1cz-zw-5D6"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="gQ7-ro-mgw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="PIT-my-bcl" customClass="JTAppleCalendarView">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="PIT-my-bcl" customClass="JTAppleCalendarView" customModule="JTAppleCalendar">
                                 <rect key="frame" x="0.0" y="44" width="375" height="283"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -460,7 +475,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Ye2-2U-gXr" customClass="CustomCell" customModule="BuddyUpApp" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CustomCell" id="Ye2-2U-gXr" customClass="CustomCell" customModule="BuddyUpApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="118" height="105"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -484,6 +499,10 @@
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="ibCalendarDataSource" destination="55i-25-UCj" id="yP3-Jc-k2N"/>
+                                    <outlet property="ibCalendarDelegate" destination="55i-25-UCj" id="U7s-Ak-W3D"/>
+                                </connections>
                             </collectionView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QkA-vc-izM">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -502,12 +521,11 @@
                         <constraints>
                             <constraint firstItem="QkA-vc-izM" firstAttribute="trailing" secondItem="PIT-my-bcl" secondAttribute="trailing" id="3Y5-2S-Vgu"/>
                             <constraint firstItem="PIT-my-bcl" firstAttribute="top" secondItem="QkA-vc-izM" secondAttribute="bottom" id="RBL-ah-38W"/>
-                            <constraint firstItem="PIT-my-bcl" firstAttribute="trailing" secondItem="9n7-w6-Qao" secondAttribute="trailing" id="gyo-9G-CHS"/>
+                            <constraint firstItem="PIT-my-bcl" firstAttribute="trailing" secondItem="gQ7-ro-mgw" secondAttribute="trailing" id="gyo-9G-CHS"/>
                             <constraint firstItem="QkA-vc-izM" firstAttribute="leading" secondItem="PIT-my-bcl" secondAttribute="leading" id="hLc-Mj-2Ir"/>
                             <constraint firstItem="QkA-vc-izM" firstAttribute="top" secondItem="gQ7-ro-mgw" secondAttribute="top" id="lYX-LN-QMF"/>
-                            <constraint firstItem="PIT-my-bcl" firstAttribute="leading" secondItem="9n7-w6-Qao" secondAttribute="leading" id="yct-37-hyp"/>
+                            <constraint firstItem="PIT-my-bcl" firstAttribute="leading" secondItem="gQ7-ro-mgw" secondAttribute="leading" id="yct-37-hyp"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="9n7-w6-Qao"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dfL-lG-1gz" userLabel="First Responder" sceneMemberID="firstResponder"/>
